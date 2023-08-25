@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="login-content">
+        <form method="post" action="sign-up.php">
+          <div class="heading">
+            <h1>Sign Up Form</h1>
+          </div>
+          First Name:<input type="text" name="fname" required /> Last
+          Name:<input type="text" name="lname" />
+          Email:
+          <input
+            type="email"
+            name="email"
+            placeholder="abc@gmail.com"
+            required
+          />
+          Password: <input type="password" name="password" required /> Phone
+          Number<input type="number" name="phoneno" />
+
+          <div>
+            I'm a
+            <input type="radio" name="gender" value="Male" />Male
+            <input type="radio" name="gender" value="Female" />Female
+          </div>
+          <input type="submit" value="Submit" />
+          <a href="login.html">Already Have Account</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
